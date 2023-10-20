@@ -1,17 +1,7 @@
 package main
 
-import (
-
-	"fmt"
-)
+import waitgroupexample "conversion/waitGroupExample"
 
 func main() {
-	// Creating a map with string keys and int values
-	myMap := map[string]int{
-		"apple":  1,
-		"banana": 2,
-		"orange": 3,
-	}
-
-	fmt.Println(myMap)
+	waitgroupexample.WaitGroupExample()
 }
